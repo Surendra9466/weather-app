@@ -4,5 +4,5 @@
 - git clone project_link
 - npm install
 - npm start
-
+Tech stack used: HTML, CSS, JavaScript & React 
 After this steps your server will be up and running
