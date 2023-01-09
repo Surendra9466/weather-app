@@ -5,19 +5,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.weather-data {
-  background-position: 100%;
-  background-size: cover;
-  min-height: 260px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.title {
-  font-size: 30px;
-  font-weight: 400;
-}
-
 .card-container {
   max-width: 600px;
   margin: 0 auto;
@@ -73,40 +60,6 @@
   top: 50%;
   right: 15px;
   transform: translate(-50%,-50%);
-}
-
-.weather-detail {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-@media only screen and (min-width: 768px) {
-  .weather-detail {
-    gap: 70px;
-  }
-}
-
-.temp p:first-child{
-  font-size: 40px;
-}
-
-.weather-data {
-  padding-left: 50px;
-  padding-top: 70px;
-  padding-bottom: 40px;
-}
-
-@media only screen and (min-width: 768px) {
-  .weather-data {
-    padding-left: 130px;
-    padding-top: 80px;
-
-  }
-}
-
-.info {
-  font-size: 30px;
 }
 
 .search-icon , .location-icon {

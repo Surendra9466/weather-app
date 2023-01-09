@@ -1,3 +1,5 @@
+import '../styles/display-data.css';
+
 function DisplayData({ apiData, image }) {
     const temp = parseInt(apiData.main.temp - 273.15);
 
